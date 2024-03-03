@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  border: 5px solid orange;
+  margin: 1rem auto;
+  padding: 0.2rem;
+}
+
+.App h1 {
+  border: 3px solid pink;
+  margin: 0.5rem;
+}
+
+.list {
+  border: 3px solid blue;
+  padding: 2rem;
+}
+
+.item {
+  border: 1px solid red;
+  padding: 1rem;
+  list-style-type: none
+}
+
+.list a {
+  color: green;
+  text-decoration: none;
+}
+
+.App-link {
+  border: 2px solid green;
+  text-decoration: none;
+  display: block;
+  width: inherit;
+}
+
+.component {
+  border: 3px solid purple;
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+.component p {
+  margin: 0;
+}
+
+.component button {
+  padding: 0.3rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
